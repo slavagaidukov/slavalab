@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 public class DynamicShapes extends JPanel {
     private List<Object> shapes = new ArrayList<>();
     public DynamicShapes(String shape) {
-        setBackground(Color.BLACK);
+        setBackground(Color.WHITE);
         setPreferredSize(new Dimension(400, 400));
 
         switch (shape) {
